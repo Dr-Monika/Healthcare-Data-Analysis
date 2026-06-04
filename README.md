@@ -18,7 +18,7 @@ The objective of this project is to transform raw healthcare data into actionabl
 ________________________________________
 🛠 Tools & Technologies
 Tool	Purpose
-Python (Pandas)	Data Cleaning & Transformation
+Jupyter Notebook	Data Cleaning & Transformation
 Jupyter Notebook	Data Exploration
 MySQL	Data Storage & Analysis
 SQL	Business Querying
@@ -56,7 +56,7 @@ Example:
 Alzheimer's → Alzheimer
 Disease Risk Categorization
 Created a new column:
-disease_risk_category
+risk_category
 Categories:
 Disease	Risk Category
 Cancer	Critical
@@ -77,7 +77,7 @@ Age Range	Group
 66+	Elderly
 ________________________________________
 🗄 Database Design
-Database: Healthcare_DB
+Database: Healthcare
 Table:
 healthcare_data
 Data was imported into MySQL using:
